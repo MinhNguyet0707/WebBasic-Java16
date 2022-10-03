@@ -1,0 +1,11 @@
+.box{
+    font-size: 20px;
+}
+#header{
+    color: orangered;
+    text-align: center;
+    text-transform: capitalize;
+}
+#end {
+    text-align:right;
+}
