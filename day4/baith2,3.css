@@ -1,0 +1,40 @@
+.icon{
+    background-color: aqua;
+    width: 200px;
+    height: 450px;
+    padding:10px;
+}
+.icon1{
+    width: 50px;
+    height: 50px;
+    background-color:black;
+}
+.icon2{
+    width: 50px;
+    height: 50px;
+    background-color:black;
+    margin:30px 70px ;
+}
+.icon3{
+    width: 50px;
+    height: 50px;
+    background-color:black;
+    margin:30px 140px ;
+}
+.icon4{
+    width: 50px;
+    height: 50px;
+    background-color:black;
+}
+.icon5{
+    width: 50px;
+    height: 50px;
+    background-color:black;
+    margin:30px 70px ;
+}
+.icon6{
+    width: 50px;
+    height: 50px;
+    background-color:black;
+    margin:30px 140px ;
+}
