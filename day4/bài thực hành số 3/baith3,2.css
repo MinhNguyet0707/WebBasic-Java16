@@ -1,0 +1,23 @@
+.shopping{
+    width: 50%;
+    height: 500px;
+}   
+.img{
+    background-image: url(./son.jpg);
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+}
+h1:hover{
+    color: darkgoldenrod;
+}
+p{
+    font-size: 40px;
+}
+button{
+    font-size: 60px;
+    color:aqua
+}
+button:hover{
+    background-color: brown;
+}

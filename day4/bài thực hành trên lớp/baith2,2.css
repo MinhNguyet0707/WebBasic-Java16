@@ -1,0 +1,9 @@
+.number{
+   width: 300px;
+    background-color:cadetblue;
+    text-align: center;
+    font-size: 40px;
+}
+.number1{
+    border-bottom:1px solid green ;
+}
