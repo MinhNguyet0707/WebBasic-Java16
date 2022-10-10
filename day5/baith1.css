@@ -20,6 +20,7 @@ background-color:lightslategray;
 .center-icon,.right-icon{
     width: 40px;
     height: 40px;
+    margin-top: 8px;
 }
 .input{
     width: 200px;
