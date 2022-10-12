@@ -1,0 +1,44 @@
+.note{
+    width: 300px;
+    height: 1000px;
+    padding: 20px;
+}
+.box{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+}
+.box1{
+    background-color: aqua;
+    color: blue;
+}
+.box1:hover{
+    background-color:cornflowerblue;
+    color: brown;
+}
+.box2{
+    background-color: chartreuse;
+    transition: width 2s;
+}
+.box2:hover{
+    width: 250px;
+}
+.box3{
+    background-color: darkslateblue;
+    -webkititio-transn: 0.8s ;
+  
+}
+.box3:hover{
+    transform: rotate(360deg);
+    background-color: aqua;
+    -webkit-transform:rotate(360deg);
+
+}
+.box4{
+    background-color: coral;
+    transition-duration: 2s;
+}
+.box4:hover{
+   transform: translate(0px,-50px);
+    box-shadow: 10px 100px 10px green;
+}

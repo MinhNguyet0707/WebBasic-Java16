@@ -1,7 +1,9 @@
+
 .box{
     width: 500px;
     height: 500px;
     position: relative;
+    border: 1px solid gold;
 }
 .box1{
     width: 500px;
@@ -35,8 +37,8 @@ position: relative;
     border-radius: 50%;
     background-color:brown;
     position: absolute;
- top:50%;
-left:50%;
+ top:225px;
+left:225px;
 
    
 }
