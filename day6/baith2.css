@@ -25,14 +25,13 @@
 }
 .box3{
     background-color: darkslateblue;
-    -webkititio-transn: 0.8s ;
+  transition: 0.5s ;
   
 }
 .box3:hover{
     transform: rotate(360deg);
     background-color: aqua;
-    -webkit-transform:rotate(360deg);
-
+    transform:rotate(360deg);
 }
 .box4{
     background-color: coral;
