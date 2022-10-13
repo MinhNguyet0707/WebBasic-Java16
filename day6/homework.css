@@ -1,0 +1,64 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+   }
+.note{
+    width: 120px;
+    height: 120px;
+    color:brown;
+    background-color:aquamarine;
+    margin: 100px;
+}
+.container{
+    max-width: 120px;
+    position: absolute;
+    margin: 100px;
+}
+.box{
+    width: 60px;
+    height: 60px;
+    background-color: peru;
+}
+.box1, .box2 , .box3, .box4{
+   transition: 0.5s;
+
+}
+.container:hover > .box1 {
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
+    background-color: brown;
+}   
+.container:hover > .box2{
+    transform-origin: 0% 100%; 
+    transform: rotate(-90deg);
+    background-color: blue;
+}
+.container:hover > .box3{
+    transform: rotate(-90deg);
+    transform-origin: 100% 0%;
+    background-color: chartreuse;
+}
+.container:hover > .box4{
+    transform: rotate(90deg);
+    transform-origin: 100% 100%;
+    background-color: fuchsia;
+}
+.box4{
+    position: relative;
+    left:60px ;
+    bottom: 120px;
+}
+.box3{
+    position: relative;
+    left: 60px;
+    bottom: 120px;
+}
+
+
+
+
+
+
+
