@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:0;
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(to bottom right, rgb(104, 219, 227),rgb(123, 9, 223));
+}
+.img{
+    background-image: url('tải\ xuống\ \(1\).jpg');
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    border: 5px solid rgb(176, 140, 140);
+    border-radius: 50%;
+    animation-name: note ;
+    animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes note {
+   0%{
+    transform: translate(0);
+    box-shadow: 0px 5px 7px 5px #888888;
+   }
+   50%{
+    transform: translateY(-20px);
+    box-shadow: 0px 0px 0px 5px #888888;
+   }
+   100%{
+    transform: translateY(-30px);
+    box-shadow: 0px 10px 10px 5px #888888;
+   }
+  
+}
+.text{
+    color:aliceblue;
+    font-size: 20px;
+    margin-top: 150px;
+    text-align: center;
+}
