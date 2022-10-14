@@ -1,0 +1,20 @@
+h1::first-letter{
+    color:aqua;
+    font-size: 50px;
+}
+p::first-line{
+   color: darkgoldenrod;
+}
+h2::before{
+    content: ' Vậy ';
+}
+h2::after{
+    content: ' là gì?';
+}
+p::selection{
+    background-color: deepskyblue;
+    color:chartreuse
+}
+li::marker{
+    content: '👰🏻‍♀️';
+}
