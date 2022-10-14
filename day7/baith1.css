@@ -16,7 +16,7 @@ p::selection{
     color:chartreuse
 }
 li::marker{
-    content: '👰🏻‍♀️';
+    content: '👰🏻';
 }
 .end::before{
     content: '👉🏼';
