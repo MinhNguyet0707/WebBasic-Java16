@@ -18,3 +18,6 @@ p::selection{
 li::marker{
     content: '👰🏻‍♀️';
 }
+.end::before{
+    content: '👉🏼';
+}
