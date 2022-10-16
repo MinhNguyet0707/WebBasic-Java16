@@ -1,0 +1,42 @@
+.container {
+   display: flex;
+   height: 50px;
+   width: 100px;
+   align-items: center;
+   justify-content: center;
+   border:1px solid blue;
+   background-color: blue;
+   font-size: 20px;
+   margin: 100px;
+   color: aliceblue;
+}
+button {
+   position: absolute;
+   animation: click 5s infinite;
+   border-radius: 100%;
+   border: none;
+   background-color: rgb(26, 26, 235);
+   box-shadow: inset 0px 5px 10px #9399a0, inset -5px -5px 10px #bdbcc6;
+   opacity: 0;
+}
+@keyframes click{
+   0% {
+      width: 10px;
+      height: 30px;
+      opacity: 0;
+   }
+   100% {
+      width: 100px;
+      height: 50px;
+      opacity: 0.6;
+   }
+}
+.text-1{
+   animation-delay: 500ms;
+}
+.text-2{
+   animation-delay: 1500ms;
+}
+
+
+
